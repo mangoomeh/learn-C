@@ -1,6 +1,6 @@
 # Learn-C
 
-## Chapter 1.1
+## Chapter 1
 ### Hello World
 The following prints 'hello, world':
 ```
@@ -12,6 +12,19 @@ main()
 }
 ```
 Note than printf is a function from standard library, not part of the C language.
+
+### Braces
+Braces {} are used if there are multiple statements.
+E.g.
+```
+while (i < j)
+  i = i + 1;
+ 
+while (i < j) {
+  i = i + 1;
+  printf("%d", i);
+}
+```
 
 ### Declaring Variables
 ```
@@ -43,4 +56,9 @@ d will not be zero since 5.0 and 9.0 are floating point numbers.
 General: % | space-allocated | .precision | type
 ```
 printf("%6.2f", 123.12)
+```
+
+### For Loops
+```
+for (x = 0; x <= 10; x = x + 1) {
 ```
