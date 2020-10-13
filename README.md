@@ -19,7 +19,7 @@ lower = 0;
 float step;
 step = 10.0;
 ```
-Other data types: char, short, long, double. \n
+Other data types: char, short, long, double.\
 Also: arrays, structures, unions of basic types, pointers, functions.
 
 ## While Loops
@@ -29,8 +29,8 @@ while (i < j)
 ```
 
 ## Operations
-Division truncates for integers. \n
-c will be zero, since 5 and 9 are integers. \n
+Division truncates for integers.\
+c will be zero, since 5 and 9 are integers.\
 d will not be zero since 5.0 and 9.0 are floating point numbers.
 ```
 c = 5/9
