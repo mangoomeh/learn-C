@@ -39,7 +39,7 @@ c will be zero, since 5 and 9 are integers.\
 d will not be zero since 5.0 and 9.0 are floating point numbers.
 
 ### Output Formatting
-General: % | space-allocated | .precision | type \
+General: % | space-allocated | .precision | type
 ```
 printf("%6.2f", 123.12)
 ```
