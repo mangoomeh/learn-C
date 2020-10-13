@@ -1,12 +1,12 @@
 # learn-C
 
 ## Hello World
-`#include <stdio.h>
+```#include <stdio.h>
 main()
 {
   printf("hello, world\n");
-}`
-
+}
+```
 
 ## Declaring Variables
 `int lower;
