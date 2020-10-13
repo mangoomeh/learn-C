@@ -25,8 +25,9 @@ Also: arrays, structures, unions of basic types, pointers, functions.
 
 ### While Loops
 ```
-while (i < j)
+while (i < j) {
   i = 2 * i;
+}
 ```
 
 ### Operations
