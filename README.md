@@ -13,19 +13,6 @@ main()
 ```
 Note than printf is a function from standard library, not part of the C language.
 
-### Braces
-Braces {} are used if there are multiple statements.
-E.g.
-```
-while (i < j)
-  i = i + 1;
- 
-while (i < j) {
-  i = i + 1;
-  printf("%d", i);
-}
-```
-
 ### Declaring Variables
 ```
 int lower;
@@ -43,10 +30,23 @@ while (i < j) {
 }
 ```
 
+### Braces
+Braces {} are used if there are multiple statements.
+E.g.
+```
+while (i < j)
+  i = i + 1;
+ 
+while (i < j) {
+  i = i + 1;
+  printf("%d", i);
+}
+```
+
 ### Operations
 ```
-c = 5/9
-d = 5.0/9.0
+c = 5/9;
+d = 5.0/9.0;
 ```
 Division truncates for integers.\
 c will be zero, since 5 and 9 are integers.\
@@ -55,10 +55,11 @@ d will not be zero since 5.0 and 9.0 are floating point numbers.
 ### Output Formatting
 General: % | space-allocated | .precision | type
 ```
-printf("%6.2f", 123.12)
+printf("%6.2f", 123.12);
 ```
 
 ### For Loops
 ```
-for (x = 0; x <= 10; x = x + 1) {
+for (x = 0; x <= 10; x = x + 1)
+  printf("%d", x);
 ```
